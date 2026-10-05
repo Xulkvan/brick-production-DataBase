@@ -1,0 +1,16 @@
+# Временные файлы MySQL Workbench
+*.mwb.bak
+*.mwb.lock
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
