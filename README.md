@@ -187,3 +187,9 @@ mysql -u root -p < 04_views/04_Sozdanie_VIEWS.sql
 ## Автор
 
 **Xulkvan_dev**, 2026 г.
+
+---
+
+## Лицензия
+
+Проект распространяется под лицензией [MIT](LICENSE).
