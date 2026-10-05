@@ -156,6 +156,23 @@ mysql -u root -p < 04_views/04_Sozdanie_VIEWS.sql
 2. Выполнить молнией (Execute).
 3. Повторить для каждого файла по порядку.
 
+### Автоматическое развёртывание
+
+**Windows:**
+```bat
+git clone https://github.com/Xulkvan/brick-production-DataBase.git
+cd brick-production-DataBase
+deploy.bat
+```
+
+**Linux / macOS:**
+```bash
+git clone https://github.com/Xulkvan/brick-production-DataBase.git
+cd brick-production-DataBase
+chmod +x deploy.sh
+./deploy.sh
+```
+
 ### Что получится после развёртывания
 
 - Схема `mydb` со справочниками и основными таблицами.
